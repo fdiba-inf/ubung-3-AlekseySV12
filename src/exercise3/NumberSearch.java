@@ -11,7 +11,7 @@ public class NumberSearch {
               }
               
               if(count==10){
-                    System.out.println();
+                    System.out.print("\n");
                     count=0;
                 }
             }
