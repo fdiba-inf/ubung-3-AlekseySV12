@@ -5,14 +5,14 @@ public class NumberSearch {
         int count=0;
         for(int i=100;i<=1000;i++){
             if(i%30==0){
-                if(count<10){
-                count++;
-                System.out.print(i+" ");
-                }
-                
-                else if(count==10){
+              if(count<10){
+              count++;
+              System.out.print(i+" ");
+              }
+              
+              if(count==10){
                     System.out.println();
-                    count-=10;
+                    count=0;
                 }
             }
         }
