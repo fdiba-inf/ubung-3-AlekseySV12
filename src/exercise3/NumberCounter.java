@@ -5,7 +5,7 @@ public class NumberCounter {
         Scanner input=new Scanner(System.in);
         int count1=0;
         double count2=0;
-        int sum=0;
+        double sum=0;
         int number=input.nextInt();
 
         while (number!=0){
