@@ -5,10 +5,10 @@ public class NumberSearch {
         int count=0;
         for(int i=100;i<=1000;i++){
             if(i%30==0){
-                System.out.print(i+" ");
                 count++;
+                System.out.print(i+" ");
                 if(count==10){
-                    System.out.print("\n");
+                    System.out.println();
                     count-=10;
                 }
             }
