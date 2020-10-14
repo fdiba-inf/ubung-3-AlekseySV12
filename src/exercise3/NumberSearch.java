@@ -6,11 +6,11 @@ public class NumberSearch {
         for(int i=100;i<=1000;i++){
             if(i%30==0){
                 count++;
-                System.out.print(i+" ");
                 if(count==10){
                     System.out.println();
                     count-=10;
                 }
+                System.out.print(i+" ");
             }
         }
     }
