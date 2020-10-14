@@ -8,7 +8,7 @@ public class NumberSearch {
                 System.out.print(i+" ");
                 count++;
                 if(count==10){
-                    System.out.println("");
+                    System.out.print("\n");
                     count-=10;
                 }
             }
